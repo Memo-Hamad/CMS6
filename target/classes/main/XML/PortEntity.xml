@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<entity-mappings xmlns="http://java.sun.com/xml/ns/persistence/orm"
+        version="2.0">
+
+    <entity class="main.jpa.entity.PortEntity">
+        <table name="Port" schema="dbo" catalog="CustomDB"/>
+        <attributes>
+            <id name="portId">
+                <column name="PortID" precision="-1"/>
+            </id>
+            <basic name="portName">
+                <column name="PortName"/>
+            </basic>
+            <basic name="location">
+                <column name="Location" nullable="false"/>
+            </basic>
+        </attributes>
+    </entity>
+</entity-mappings>

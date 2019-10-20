@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<entity-mappings xmlns="http://java.sun.com/xml/ns/persistence/orm"
+        version="2.0">
+
+    <entity class="main.jpa.entity.CustomerTypeEntity">
+        <table name="CustomerType" schema="dbo" catalog="CustomDB"/>
+        <attributes>
+            <id name="customerTypeCode">
+                <column name="CustomerTypeCode" length="1"/>
+            </id>
+            <basic name="customerType">
+                <column name="CustomerType"/>
+            </basic>
+        </attributes>
+    </entity>
+</entity-mappings>

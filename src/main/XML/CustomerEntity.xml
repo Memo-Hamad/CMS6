@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<entity-mappings xmlns="http://java.sun.com/xml/ns/persistence/orm"
+        version="2.0">
+
+    <entity class="main.jpa.entity.CustomerEntity">
+        <table name="Customer" schema="dbo" catalog="CustomDB"/>
+        <attributes>
+            <id name="customerId">
+                <column name="CustomerID" precision="-1"/>
+            </id>
+            <basic name="firstName">
+                <column name="FirstName"/>
+            </basic>
+            <basic name="lastName">
+                <column name="LastName"/>
+            </basic>
+            <basic name="mobile">
+                <column name="Mobile" precision="-1"/>
+            </basic>
+        </attributes>
+    </entity>
+</entity-mappings>

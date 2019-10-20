@@ -1,0 +1,381 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="src" path="src/main/java"/>
+	<classpathentry kind="src" path="src/test/java"/>
+	<classpathentry kind="src" path="src/main/resources"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry exported="true" kind="con" path="org.eclipse.jdt.USER_LIBRARY/JAX-RS"/>
+	<classpathentry exported="true" kind="lib" path="/lib/jar_files/helidon-common-1.3.1.jar"/>
+	<classpathentry exported="true" kind="lib" path="/lib/jar_files/helidon-common-mapper-1.3.1.jar"/>
+	<classpathentry exported="true" kind="lib" path="/lib/jar_files/helidon-common-reactive-1.3.1.jar"/>
+	<classpathentry exported="true" kind="lib" path="/lib/jar_files/helidon-common-service-loader-1.3.1.jar"/>
+	<classpathentry exported="true" kind="lib" path="/lib/jar_files/helidon-config-1.3.1.jar"/>
+	<classpathentry exported="true" kind="lib" path="/lib/jar_files/helidon-config-object-mapping-1.3.1.jar"/>
+	<classpathentry exported="true" kind="lib" path="/lib/jar_files/javax.annotation-api-1.3.1.jar"/>
+	<classpathentry exported="true" kind="lib" path="/lib/jar_files/reactive-streams-1.0.2.jar"/>
+	<classpathentry exported="true" kind="lib" path="/lib/jar_files/reactor-core-3.1.5.RELEASE.jar"/>
+	<classpathentry exported="true" kind="lib" path="/lib/jar_files-2/aopalliance-repackaged-2.6.1.jar"/>
+	<classpathentry exported="true" kind="lib" path="/lib/jar_files-2/archaius-core-0.4.1.jar"/>
+	<classpathentry exported="true" kind="lib" path="/lib/jar_files-2/cdi-api-2.0.SP1.jar"/>
+	<classpathentry exported="true" kind="lib" path="/lib/jar_files-2/commons-beanutils-1.9.3.jar"/>
+	<classpathentry exported="true" kind="lib" path="/lib/jar_files-2/commons-collections-3.2.2.jar"/>
+	<classpathentry exported="true" kind="lib" path="/lib/jar_files-2/commons-configuration-1.8.jar"/>
+	<classpathentry exported="true" kind="lib" path="/lib/jar_files-2/commons-io-2.6.jar"/>
+	<classpathentry exported="true" kind="lib" path="/lib/jar_files-2/commons-lang-2.6.jar"/>
+	<classpathentry exported="true" kind="lib" path="/lib/jar_files-2/commons-logging-1.2.jar"/>
+	<classpathentry exported="true" kind="lib" path="/lib/jar_files-2/config-1.3.3.jar"/>
+	<classpathentry exported="true" kind="lib" path="/lib/jar_files-2/failsafe-1.1.0.jar"/>
+	<classpathentry exported="true" kind="lib" path="/lib/jar_files-2/HdrHistogram-2.1.9.jar"/>
+	<classpathentry exported="true" kind="lib" path="/lib/jar_files-2/helidon-bundles-config-1.3.1.jar"/>
+	<classpathentry exported="true" kind="lib" path="/lib/jar_files-2/helidon-bundles-security-1.3.1.jar"/>
+	<classpathentry exported="true" kind="lib" path="/lib/jar_files-2/helidon-common-1.3.1.jar"/>
+	<classpathentry exported="true" kind="lib" path="/lib/jar_files-2/helidon-common-configurable-1.3.1.jar"/>
+	<classpathentry exported="true" kind="lib" path="/lib/jar_files-2/helidon-common-context-1.3.1.jar"/>
+	<classpathentry exported="true" kind="lib" path="/lib/jar_files-2/helidon-common-http-1.3.1.jar"/>
+	<classpathentry exported="true" kind="lib" path="/lib/jar_files-2/helidon-common-key-util-1.3.1.jar"/>
+	<classpathentry exported="true" kind="lib" path="/lib/jar_files-2/helidon-common-mapper-1.3.1.jar"/>
+	<classpathentry exported="true" kind="lib" path="/lib/jar_files-2/helidon-common-metrics-1.3.1.jar"/>
+	<classpathentry exported="true" kind="lib" path="/lib/jar_files-2/helidon-common-reactive-1.3.1.jar"/>
+	<classpathentry exported="true" kind="lib" path="/lib/jar_files-2/helidon-common-service-loader-1.3.1.jar"/>
+	<classpathentry exported="true" kind="lib" path="/lib/jar_files-2/helidon-config-1.3.1.jar"/>
+	<classpathentry exported="true" kind="lib" path="/lib/jar_files-2/helidon-config-encryption-1.3.1.jar"/>
+	<classpathentry exported="true" kind="lib" path="/lib/jar_files-2/helidon-config-hocon-1.3.1.jar"/>
+	<classpathentry exported="true" kind="lib" path="/lib/jar_files-2/helidon-config-object-mapping-1.3.1.jar"/>
+	<classpathentry exported="true" kind="lib" path="/lib/jar_files-2/helidon-config-yaml-1.3.1.jar"/>
+	<classpathentry exported="true" kind="lib" path="/lib/jar_files-2/helidon-health-1.3.1.jar"/>
+	<classpathentry exported="true" kind="lib" path="/lib/jar_files-2/helidon-health-checks-1.3.1.jar"/>
+	<classpathentry exported="true" kind="lib" path="/lib/jar_files-2/helidon-jersey-client-1.3.1.jar"/>
+	<classpathentry exported="true" kind="lib" path="/lib/jar_files-2/helidon-jersey-common-1.3.1.jar"/>
+	<classpathentry exported="true" kind="lib" path="/lib/jar_files-2/helidon-jersey-media-jsonp-1.3.1.jar"/>
+	<classpathentry exported="true" kind="lib" path="/lib/jar_files-2/helidon-jersey-server-1.3.1.jar"/>
+	<classpathentry exported="true" kind="lib" path="/lib/jar_files-2/helidon-media-common-1.3.1.jar"/>
+	<classpathentry exported="true" kind="lib" path="/lib/jar_files-2/helidon-media-jsonp-common-1.3.1.jar"/>
+	<classpathentry exported="true" kind="lib" path="/lib/jar_files-2/helidon-media-jsonp-server-1.3.1.jar"/>
+	<classpathentry exported="true" kind="lib" path="/lib/jar_files-2/helidon-metrics-1.3.1.jar"/>
+	<classpathentry exported="true" kind="lib" path="/lib/jar_files-2/helidon-microprofile-1.1-1.3.1.jar"/>
+	<classpathentry exported="true" kind="lib" path="/lib/jar_files-2/helidon-microprofile-1.2-1.3.1.jar"/>
+	<classpathentry exported="true" kind="lib" path="/lib/jar_files-2/helidon-microprofile-2.2-1.3.1.jar"/>
+	<classpathentry exported="true" kind="lib" path="/lib/jar_files-2/helidon-microprofile-config-1.3.1.jar"/>
+	<classpathentry exported="true" kind="lib" path="/lib/jar_files-2/helidon-microprofile-config-cdi-1.3.1.jar"/>
+	<classpathentry exported="true" kind="lib" path="/lib/jar_files-2/helidon-microprofile-fault-tolerance-1.3.1.jar"/>
+	<classpathentry exported="true" kind="lib" path="/lib/jar_files-2/helidon-microprofile-health-1.3.1.jar"/>
+	<classpathentry exported="true" kind="lib" path="/lib/jar_files-2/helidon-microprofile-jwt-auth-1.3.1.jar"/>
+	<classpathentry exported="true" kind="lib" path="/lib/jar_files-2/helidon-microprofile-jwt-auth-cdi-1.3.1.jar"/>
+	<classpathentry exported="true" kind="lib" path="/lib/jar_files-2/helidon-microprofile-metrics-1.3.1.jar"/>
+	<classpathentry exported="true" kind="lib" path="/lib/jar_files-2/helidon-microprofile-openapi-1.3.1.jar"/>
+	<classpathentry exported="true" kind="lib" path="/lib/jar_files-2/helidon-microprofile-rest-client-1.3.1.jar"/>
+	<classpathentry exported="true" kind="lib" path="/lib/jar_files-2/helidon-microprofile-security-1.3.1.jar"/>
+	<classpathentry exported="true" kind="lib" path="/lib/jar_files-2/helidon-microprofile-server-1.3.1.jar"/>
+	<classpathentry exported="true" kind="lib" path="/lib/jar_files-2/helidon-microprofile-tracing-1.3.1.jar"/>
+	<classpathentry exported="true" kind="lib" path="/lib/jar_files-2/helidon-openapi-1.3.1.jar"/>
+	<classpathentry exported="true" kind="lib" path="/lib/jar_files-2/helidon-security-1.3.1.jar"/>
+	<classpathentry exported="true" kind="lib" path="/lib/jar_files-2/helidon-security-abac-policy-1.3.1.jar"/>
+	<classpathentry exported="true" kind="lib" path="/lib/jar_files-2/helidon-security-abac-role-1.3.1.jar"/>
+	<classpathentry exported="true" kind="lib" path="/lib/jar_files-2/helidon-security-abac-scope-1.3.1.jar"/>
+	<classpathentry exported="true" kind="lib" path="/lib/jar_files-2/helidon-security-abac-time-1.3.1.jar"/>
+	<classpathentry exported="true" kind="lib" path="/lib/jar_files-2/helidon-security-annotations-1.3.1.jar"/>
+	<classpathentry exported="true" kind="lib" path="/lib/jar_files-2/helidon-security-integration-common-1.3.1.jar"/>
+	<classpathentry exported="true" kind="lib" path="/lib/jar_files-2/helidon-security-integration-jersey-1.3.1.jar"/>
+	<classpathentry exported="true" kind="lib" path="/lib/jar_files-2/helidon-security-integration-jersey-client-1.3.1.jar"/>
+	<classpathentry exported="true" kind="lib" path="/lib/jar_files-2/helidon-security-integration-webserver-1.3.1.jar"/>
+	<classpathentry exported="true" kind="lib" path="/lib/jar_files-2/helidon-security-jwt-1.3.1.jar"/>
+	<classpathentry exported="true" kind="lib" path="/lib/jar_files-2/helidon-security-providers-abac-1.3.1.jar"/>
+	<classpathentry exported="true" kind="lib" path="/lib/jar_files-2/helidon-security-providers-common-1.3.1.jar"/>
+	<classpathentry exported="true" kind="lib" path="/lib/jar_files-2/helidon-security-providers-header-1.3.1.jar"/>
+	<classpathentry exported="true" kind="lib" path="/lib/jar_files-2/helidon-security-providers-http-auth-1.3.1.jar"/>
+	<classpathentry exported="true" kind="lib" path="/lib/jar_files-2/helidon-security-providers-http-sign-1.3.1.jar"/>
+	<classpathentry exported="true" kind="lib" path="/lib/jar_files-2/helidon-security-providers-jwt-1.3.1.jar"/>
+	<classpathentry exported="true" kind="lib" path="/lib/jar_files-2/helidon-security-providers-oidc-1.3.1.jar"/>
+	<classpathentry exported="true" kind="lib" path="/lib/jar_files-2/helidon-security-providers-oidc-common-1.3.1.jar"/>
+	<classpathentry exported="true" kind="lib" path="/lib/jar_files-2/helidon-security-util-1.3.1.jar"/>
+	<classpathentry exported="true" kind="lib" path="/lib/jar_files-2/helidon-tracing-1.3.1.jar"/>
+	<classpathentry exported="true" kind="lib" path="/lib/jar_files-2/helidon-tracing-config-1.3.1.jar"/>
+	<classpathentry exported="true" kind="lib" path="/lib/jar_files-2/helidon-tracing-jersey-1.3.1.jar"/>
+	<classpathentry exported="true" kind="lib" path="/lib/jar_files-2/helidon-tracing-jersey-client-1.3.1.jar"/>
+	<classpathentry exported="true" kind="lib" path="/lib/jar_files-2/helidon-webclient-jaxrs-1.3.1.jar"/>
+	<classpathentry exported="true" kind="lib" path="/lib/jar_files-2/helidon-webserver-1.3.1.jar"/>
+	<classpathentry exported="true" kind="lib" path="/lib/jar_files-2/helidon-webserver-jersey-1.3.1.jar"/>
+	<classpathentry exported="true" kind="lib" path="/lib/jar_files-2/hk2-api-2.6.1.jar"/>
+	<classpathentry exported="true" kind="lib" path="/lib/jar_files-2/hk2-locator-2.6.1.jar"/>
+	<classpathentry exported="true" kind="lib" path="/lib/jar_files-2/hk2-utils-2.6.1.jar"/>
+	<classpathentry exported="true" kind="lib" path="/lib/jar_files-2/hystrix-core-1.5.18.jar"/>
+	<classpathentry exported="true" kind="lib" path="/lib/jar_files-2/jackson-annotations-2.9.0.jar"/>
+	<classpathentry exported="true" kind="lib" path="/lib/jar_files-2/jackson-core-2.9.8.jar"/>
+	<classpathentry exported="true" kind="lib" path="/lib/jar_files-2/jackson-databind-2.9.8.jar"/>
+	<classpathentry exported="true" kind="lib" path="/lib/jar_files-2/jackson-dataformat-yaml-2.9.8.jar"/>
+	<classpathentry exported="true" kind="lib" path="/lib/jar_files-2/jakarta.inject-2.6.1.jar"/>
+	<classpathentry exported="true" kind="lib" path="/lib/jar_files-2/jakarta.validation-api-2.0.2.jar"/>
+	<classpathentry exported="true" kind="lib" path="/lib/jar_files-2/jakarta.ws.rs-api-2.1.6.jar"/>
+	<classpathentry exported="true" kind="lib" path="/lib/jar_files-2/jandex-2.1.1.Final.jar"/>
+	<classpathentry exported="true" kind="lib" path="/lib/jar_files-2/javassist-3.22.0-CR2.jar"/>
+	<classpathentry exported="true" kind="lib" path="/lib/jar_files-2/javax.activation-api-1.2.0.jar"/>
+	<classpathentry exported="true" kind="lib" path="/lib/jar_files-2/javax.annotation-api-1.3.1.jar"/>
+	<classpathentry exported="true" kind="lib" path="/lib/jar_files-2/javax.inject-1.jar"/>
+	<classpathentry exported="true" kind="lib" path="/lib/jar_files-2/javax.json-1.1.2.jar"/>
+	<classpathentry exported="true" kind="lib" path="/lib/jar_files-2/javax.json-api-1.1.2.jar"/>
+	<classpathentry exported="true" kind="lib" path="/lib/jar_files-2/jboss-annotations-api_1.3_spec-1.0.0.Final.jar"/>
+	<classpathentry exported="true" kind="lib" path="/lib/jar_files-2/jboss-classfilewriter-1.2.4.Final.jar"/>
+	<classpathentry exported="true" kind="lib" path="/lib/jar_files-2/jboss-el-api_3.0_spec-1.0.13.Final.jar"/>
+	<classpathentry exported="true" kind="lib" path="/lib/jar_files-2/jboss-interceptors-api_1.2_spec-1.0.0.Final.jar"/>
+	<classpathentry exported="true" kind="lib" path="/lib/jar_files-2/jboss-logging-3.3.2.Final.jar"/>
+	<classpathentry exported="true" kind="lib" path="/lib/jar_files-2/jersey-cdi1x-2.29.1.jar"/>
+	<classpathentry exported="true" kind="lib" path="/lib/jar_files-2/jersey-client-2.29.1.jar"/>
+	<classpathentry kind="lib" path="/lib/jar_files-2/jersey-common-2.29.1.jar"/>
+	<classpathentry kind="lib" path="/lib/jar_files-2/jersey-hk2-2.29.1.jar"/>
+	<classpathentry kind="lib" path="/lib/jar_files-2/jersey-media-json-processing-2.29.1.jar"/>
+	<classpathentry kind="lib" path="/lib/jar_files-2/jersey-mp-rest-client-2.29.1.jar"/>
+	<classpathentry kind="lib" path="/lib/jar_files-2/jersey-server-2.29.1.jar"/>
+	<classpathentry kind="lib" path="/lib/jar_files-2/jersey-weld2-se-2.29.1.jar"/>
+	<classpathentry kind="lib" path="/lib/jar_files-2/jsonp-jaxrs-1.1.5.jar"/>
+	<classpathentry kind="lib" path="/lib/jar_files-2/microprofile-config-api-1.3.jar"/>
+	<classpathentry kind="lib" path="/lib/jar_files-2/microprofile-fault-tolerance-api-2.0.jar"/>
+	<classpathentry kind="lib" path="/lib/jar_files-2/microprofile-health-api-2.0.1.jar"/>
+	<classpathentry kind="lib" path="/lib/jar_files-2/microprofile-jwt-auth-api-1.1.1.jar"/>
+	<classpathentry kind="lib" path="/lib/jar_files-2/microprofile-metrics-api-1.1.jar"/>
+	<classpathentry kind="lib" path="/lib/jar_files-2/microprofile-openapi-api-1.1.2.jar"/>
+	<classpathentry kind="lib" path="/lib/jar_files-2/microprofile-opentracing-api-1.3.1.jar"/>
+	<classpathentry kind="lib" path="/lib/jar_files-2/microprofile-rest-client-api-1.3.3.jar"/>
+	<classpathentry kind="lib" path="/lib/jar_files-2/netty-buffer-4.1.39.Final.jar"/>
+	<classpathentry kind="lib" path="/lib/jar_files-2/netty-codec-4.1.39.Final.jar"/>
+	<classpathentry kind="lib" path="/lib/jar_files-2/netty-codec-http-4.1.39.Final.jar"/>
+	<classpathentry kind="lib" path="/lib/jar_files-2/netty-codec-http2-4.1.39.Final.jar"/>
+	<classpathentry kind="lib" path="/lib/jar_files-2/netty-common-4.1.39.Final.jar"/>
+	<classpathentry kind="lib" path="/lib/jar_files-2/netty-handler-4.1.39.Final.jar"/>
+	<classpathentry kind="lib" path="/lib/jar_files-2/netty-resolver-4.1.39.Final.jar"/>
+	<classpathentry kind="lib" path="/lib/jar_files-2/netty-transport-4.1.39.Final.jar"/>
+	<classpathentry kind="lib" path="/lib/jar_files-2/opentracing-api-0.31.0.jar"/>
+	<classpathentry kind="lib" path="/lib/jar_files-2/opentracing-noop-0.31.0.jar"/>
+	<classpathentry kind="lib" path="/lib/jar_files-2/opentracing-util-0.31.0.jar"/>
+	<classpathentry kind="lib" path="/lib/jar_files-2/osgi-resource-locator-1.0.3.jar"/>
+	<classpathentry kind="lib" path="/lib/jar_files-2/reactive-streams-1.0.2.jar"/>
+	<classpathentry kind="lib" path="/lib/jar_files-2/reactor-core-3.1.5.RELEASE.jar"/>
+	<classpathentry kind="lib" path="/lib/jar_files-2/rxjava-1.2.0.jar"/>
+	<classpathentry kind="lib" path="/lib/jar_files-2/shrinkwrap-api-1.2.6.jar"/>
+	<classpathentry kind="lib" path="/lib/jar_files-2/slf4j-api-1.7.26.jar"/>
+	<classpathentry kind="lib" path="/lib/jar_files-2/slf4j-jdk14-1.7.26.jar"/>
+	<classpathentry kind="lib" path="/lib/jar_files-2/smallrye-open-api-1.1.1.jar"/>
+	<classpathentry kind="lib" path="/lib/jar_files-2/snakeyaml-1.23.jar"/>
+	<classpathentry kind="lib" path="/lib/jar_files-2/weld-api-3.1.Final.jar"/>
+	<classpathentry kind="lib" path="/lib/jar_files-2/weld-core-impl-3.1.1.Final.jar"/>
+	<classpathentry kind="lib" path="/lib/jar_files-2/weld-environment-common-3.1.1.Final.jar"/>
+	<classpathentry kind="lib" path="/lib/jar_files-2/weld-probe-core-3.1.1.Final.jar"/>
+	<classpathentry kind="lib" path="/lib/jar_files-2/weld-se-core-3.1.1.Final.jar"/>
+	<classpathentry kind="lib" path="/lib/jar_files-2/weld-spi-3.1.Final.jar"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.USER_LIBRARY/Java EE 6-Java EE 6"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.USER_LIBRARY/Hibernate 5.4.5-5.4.5"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.USER_LIBRARY/Maven: javax.enterprise:cdi-api:2.0.SP1"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.USER_LIBRARY/Maven: org.jboss.weld:weld-api:3.1.Final"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.USER_LIBRARY/Maven: org.jboss.weld:weld-core-impl:3.1.1.Final"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.USER_LIBRARY/Maven: org.jboss.classfilewriter:jboss-classfilewriter:1.2.4.Final"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.USER_LIBRARY/Maven: org.jboss.spec.javax.annotation:jboss-annotations-api_1.3_spec:1.0.0.Final"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.USER_LIBRARY/Maven: org.jboss.spec.javax.el:jboss-el-api_3.0_spec:1.0.13.Final"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.USER_LIBRARY/Maven: org.jboss.spec.javax.interceptor:jboss-interceptors-api_1.2_spec:1.0.0.Final"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.USER_LIBRARY/Maven: io.helidon.microprofile.bundles:helidon-microprofile-3.0:1.3.0"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.USER_LIBRARY/Maven: io.helidon.microprofile.bundles:helidon-microprofile-2.2:1.3.0"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.USER_LIBRARY/Maven: io.helidon.microprofile.bundles:helidon-microprofile-1.2:1.3.0"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.USER_LIBRARY/Maven: io.helidon.microprofile.bundles:helidon-microprofile-1.1:1.3.0"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.USER_LIBRARY/Maven: io.helidon.microprofile.config:helidon-microprofile-config-cdi:1.3.0"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.USER_LIBRARY/Maven: io.helidon.microprofile.health:helidon-microprofile-health:1.3.0"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.USER_LIBRARY/Maven: io.helidon.health:helidon-health:1.3.0"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.USER_LIBRARY/Maven: org.eclipse.microprofile.health:microprofile-health-api:2.0.1"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.USER_LIBRARY/Maven: io.helidon.health:helidon-health-checks:1.3.0"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.USER_LIBRARY/Maven: io.helidon.microprofile:helidon-microprofile-fault-tolerance:1.3.0"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.USER_LIBRARY/Maven: org.eclipse.microprofile.fault-tolerance:microprofile-fault-tolerance-api:2.0"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.USER_LIBRARY/Maven: com.netflix.hystrix:hystrix-core:1.5.18"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.USER_LIBRARY/Maven: com.netflix.archaius:archaius-core:0.4.1"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.USER_LIBRARY/Maven: commons-configuration:commons-configuration:1.8"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.USER_LIBRARY/Maven: commons-lang:commons-lang:2.6"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.USER_LIBRARY/Maven: io.reactivex:rxjava:1.2.0"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.USER_LIBRARY/Maven: org.hdrhistogram:HdrHistogram:2.1.9"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.USER_LIBRARY/Maven: net.jodah:failsafe:1.1.0"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.USER_LIBRARY/Maven: io.helidon.common:helidon-common-configurable:1.3.0"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.USER_LIBRARY/Maven: io.helidon.microprofile.jwt:helidon-microprofile-jwt-auth-cdi:1.3.0"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.USER_LIBRARY/Maven: org.eclipse.microprofile.jwt:microprofile-jwt-auth-api:1.1.1"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.USER_LIBRARY/Maven: io.helidon.microprofile.jwt:helidon-microprofile-jwt-auth:1.3.0"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.USER_LIBRARY/Maven: io.helidon.security:helidon-security-jwt:1.3.0"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.USER_LIBRARY/Maven: io.helidon.security.integration:helidon-security-integration-jersey:1.3.0"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.USER_LIBRARY/Maven: io.helidon.security:helidon-security-annotations:1.3.0"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.USER_LIBRARY/Maven: io.helidon.microprofile:helidon-microprofile-security:1.3.0"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.USER_LIBRARY/Maven: io.helidon.bundles:helidon-bundles-security:1.3.0"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.USER_LIBRARY/Maven: io.helidon.security.providers:helidon-security-providers-header:1.3.0"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.USER_LIBRARY/Maven: io.helidon.security.providers:helidon-security-providers-http-auth:1.3.0"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.USER_LIBRARY/Maven: io.helidon.security.providers:helidon-security-providers-http-sign:1.3.0"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.USER_LIBRARY/Maven: io.helidon.security.providers:helidon-security-providers-jwt:1.3.0"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.USER_LIBRARY/Maven: io.helidon.security.providers:helidon-security-providers-abac:1.3.0"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.USER_LIBRARY/Maven: io.helidon.security.providers:helidon-security-providers-oidc:1.3.0"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.USER_LIBRARY/Maven: io.helidon.security.providers:helidon-security-providers-oidc-common:1.3.0"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.USER_LIBRARY/Maven: io.helidon.security.abac:helidon-security-abac-time:1.3.0"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.USER_LIBRARY/Maven: io.helidon.security.abac:helidon-security-abac-role:1.3.0"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.USER_LIBRARY/Maven: io.helidon.security.abac:helidon-security-abac-scope:1.3.0"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.USER_LIBRARY/Maven: io.helidon.security.abac:helidon-security-abac-policy:1.3.0"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.USER_LIBRARY/Maven: io.helidon.security.integration:helidon-security-integration-webserver:1.3.0"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.USER_LIBRARY/Maven: io.helidon.security.integration:helidon-security-integration-jersey-client:1.3.0"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.USER_LIBRARY/Maven: io.helidon.security:helidon-security:1.3.0"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.USER_LIBRARY/Maven: io.helidon.security:helidon-security-util:1.3.0"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.USER_LIBRARY/Maven: io.helidon.security.integration:helidon-security-integration-common:1.3.0"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.USER_LIBRARY/Maven: io.helidon.tracing:helidon-tracing-config:1.3.0"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.USER_LIBRARY/Maven: io.helidon.security.providers:helidon-security-providers-common:1.3.0"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.USER_LIBRARY/Maven: io.helidon.webclient:helidon-webclient-jaxrs:1.3.0"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.USER_LIBRARY/Maven: io.helidon.microprofile.openapi:helidon-microprofile-openapi:1.3.0"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.USER_LIBRARY/Maven: io.helidon.openapi:helidon-openapi:1.3.0"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.USER_LIBRARY/Maven: io.smallrye:smallrye-open-api:1.1.1"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.USER_LIBRARY/Maven: com.fasterxml.jackson.dataformat:jackson-dataformat-yaml:2.9.8"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.USER_LIBRARY/Maven: org.jboss.shrinkwrap:shrinkwrap-api:1.2.6"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.USER_LIBRARY/Maven: commons-io:commons-io:2.6"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.USER_LIBRARY/Maven: commons-beanutils:commons-beanutils:1.9.3"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.USER_LIBRARY/Maven: commons-logging:commons-logging:1.2"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.USER_LIBRARY/Maven: commons-collections:commons-collections:3.2.2"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.USER_LIBRARY/Maven: io.helidon.config:helidon-config:1.3.0"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.USER_LIBRARY/Maven: org.eclipse.microprofile.openapi:microprofile-openapi-api:1.1.2"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.USER_LIBRARY/Maven: io.helidon.microprofile.rest-client:helidon-microprofile-rest-client:1.3.0"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.USER_LIBRARY/Maven: io.helidon.common:helidon-common-context:1.3.0"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.USER_LIBRARY/Maven: io.helidon.jersey:helidon-jersey-client:1.3.0"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.USER_LIBRARY/Maven: org.glassfish.jersey.core:jersey-client:2.29.1"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.USER_LIBRARY/Maven: org.glassfish.jersey.inject:jersey-hk2:2.29.1"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.USER_LIBRARY/Maven: org.glassfish.hk2:hk2-locator:2.6.1"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.USER_LIBRARY/Maven: org.glassfish.hk2.external:aopalliance-repackaged:2.6.1"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.USER_LIBRARY/Maven: org.glassfish.hk2:hk2-api:2.6.1"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.USER_LIBRARY/Maven: org.glassfish.hk2:hk2-utils:2.6.1"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.USER_LIBRARY/Maven: javax.annotation:javax.annotation-api:1.3.1"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.USER_LIBRARY/Maven: org.glassfish.jersey.ext.microprofile:jersey-mp-rest-client:2.29.1"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.USER_LIBRARY/Maven: io.helidon.microprofile.tracing:helidon-microprofile-tracing:1.3.0"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.USER_LIBRARY/Maven: io.helidon.tracing:helidon-tracing-jersey:1.3.0"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.USER_LIBRARY/Maven: io.helidon.tracing:helidon-tracing:1.3.0"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.USER_LIBRARY/Maven: io.helidon.tracing:helidon-tracing-jersey-client:1.3.0"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.USER_LIBRARY/Maven: io.helidon.jersey:helidon-jersey-common:1.3.0"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.USER_LIBRARY/Maven: org.eclipse.microprofile.opentracing:microprofile-opentracing-api:1.3.1"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.USER_LIBRARY/Maven: org.eclipse.microprofile.rest.client:microprofile-rest-client-api:1.3.3"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.USER_LIBRARY/Maven: io.helidon.microprofile.metrics:helidon-microprofile-metrics2:1.3.0"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.USER_LIBRARY/Maven: io.helidon.microprofile.server:helidon-microprofile-server:1.3.0"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.USER_LIBRARY/Maven: org.glassfish:javax.json:1.1.2"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.USER_LIBRARY/Maven: javax.json:javax.json-api:1.1.2"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.USER_LIBRARY/Maven: org.jboss.weld.se:weld-se-core:3.1.1.Final"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.USER_LIBRARY/Maven: org.jboss.weld.environment:weld-environment-common:3.1.1.Final"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.USER_LIBRARY/Maven: org.jboss.weld.probe:weld-probe-core:3.1.1.Final"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.USER_LIBRARY/Maven: org.slf4j:slf4j-jdk14:1.7.26"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.USER_LIBRARY/Maven: io.helidon.webserver:helidon-webserver:1.3.0"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.USER_LIBRARY/Maven: io.helidon.common:helidon-common-reactive:1.3.0"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.USER_LIBRARY/Maven: io.helidon.common:helidon-common-mapper:1.3.0"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.USER_LIBRARY/Maven: io.helidon.common:helidon-common-http:1.3.0"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.USER_LIBRARY/Maven: io.helidon.media:helidon-media-common:1.3.0"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.USER_LIBRARY/Maven: io.helidon.common:helidon-common-key-util:1.3.0"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.USER_LIBRARY/Maven: io.opentracing:opentracing-util:0.31.0"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.USER_LIBRARY/Maven: io.opentracing:opentracing-api:0.31.0"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.USER_LIBRARY/Maven: io.opentracing:opentracing-noop:0.31.0"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.USER_LIBRARY/Maven: io.netty:netty-codec-http:4.1.39.Final"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.USER_LIBRARY/Maven: io.netty:netty-common:4.1.39.Final"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.USER_LIBRARY/Maven: io.netty:netty-buffer:4.1.39.Final"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.USER_LIBRARY/Maven: io.netty:netty-transport:4.1.39.Final"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.USER_LIBRARY/Maven: io.netty:netty-resolver:4.1.39.Final"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.USER_LIBRARY/Maven: io.netty:netty-codec:4.1.39.Final"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.USER_LIBRARY/Maven: io.netty:netty-codec-http2:4.1.39.Final"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.USER_LIBRARY/Maven: io.netty:netty-handler:4.1.39.Final"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.USER_LIBRARY/Maven: io.helidon.webserver:helidon-webserver-jersey:1.3.0"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.USER_LIBRARY/Maven: io.helidon.jersey:helidon-jersey-server:1.3.0"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.USER_LIBRARY/Maven: org.glassfish.jersey.core:jersey-server:2.29.1"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.USER_LIBRARY/Maven: jakarta.validation:jakarta.validation-api:2.0.2"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.USER_LIBRARY/Maven: io.projectreactor:reactor-core:3.1.5.RELEASE"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.USER_LIBRARY/Maven: org.reactivestreams:reactive-streams:1.0.2"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.USER_LIBRARY/Maven: io.helidon.common:helidon-common-service-loader:1.3.0"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.USER_LIBRARY/Maven: org.glassfish.jersey.ext.cdi:jersey-weld2-se:2.29.1"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.USER_LIBRARY/Maven: org.glassfish.jersey.ext.cdi:jersey-cdi1x:2.29.1"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.USER_LIBRARY/Maven: io.helidon.jersey:helidon-jersey-media-jsonp:1.3.0"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.USER_LIBRARY/Maven: org.glassfish.jersey.media:jersey-media-json-processing:2.29.1"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.USER_LIBRARY/Maven: org.glassfish:jsonp-jaxrs:1.1.5"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.USER_LIBRARY/Maven: io.helidon.microprofile.config:helidon-microprofile-config:1.3.0"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.USER_LIBRARY/Maven: io.helidon.bundles:helidon-bundles-config:1.3.0"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.USER_LIBRARY/Maven: io.helidon.config:helidon-config-object-mapping:1.3.0"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.USER_LIBRARY/Maven: io.helidon.config:helidon-config-hocon:1.3.0"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.USER_LIBRARY/Maven: com.typesafe:config:1.3.3"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.USER_LIBRARY/Maven: io.helidon.config:helidon-config-yaml:1.3.0"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.USER_LIBRARY/Maven: org.yaml:snakeyaml:1.24"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.USER_LIBRARY/Maven: io.helidon.config:helidon-config-encryption:1.3.0"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.USER_LIBRARY/Maven: io.helidon.metrics:helidon-metrics2:1.3.0"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.USER_LIBRARY/Maven: io.helidon.common:helidon-common:1.3.0"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.USER_LIBRARY/Maven: io.helidon.common:helidon-common-metrics:1.3.0"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.USER_LIBRARY/Maven: org.eclipse.microprofile.metrics:microprofile-metrics-api:2.0.1"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.USER_LIBRARY/Maven: io.helidon.media.jsonp:helidon-media-jsonp-server:1.3.0"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.USER_LIBRARY/Maven: io.helidon.media.jsonp:helidon-media-jsonp-common:1.3.0"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.USER_LIBRARY/Maven: org.hibernate:hibernate-entitymanager:4.2.8.Final"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.USER_LIBRARY/Maven: org.jboss.logging:jboss-logging:3.1.0.GA"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.USER_LIBRARY/Maven: org.hibernate:hibernate-core:4.2.8.Final"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.USER_LIBRARY/Maven: antlr:antlr:2.7.7"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.USER_LIBRARY/Maven: dom4j:dom4j:1.6.1"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.USER_LIBRARY/Maven: org.javassist:javassist:3.18.1-GA"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.USER_LIBRARY/Maven: org.jboss.spec.javax.transaction:jboss-transaction-api_1.1_spec:1.0.1.Final"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.USER_LIBRARY/Maven: org.hibernate.javax.persistence:hibernate-jpa-2.0-api:1.0.1.Final"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.USER_LIBRARY/Maven: org.hibernate.common:hibernate-commons-annotations:4.0.2.Final"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.USER_LIBRARY/Maven: ch.qos.logback:logback-classic:1.1.2"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.USER_LIBRARY/Maven: ch.qos.logback:logback-core:1.1.2"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.USER_LIBRARY/Maven: org.slf4j:slf4j-api:1.7.6"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.USER_LIBRARY/Maven: org.slf4j:log4j-over-slf4j:1.7.12"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.USER_LIBRARY/Maven: com.microsoft.sqlserver:mssql-jdbc:8.1.0.jre13-preview"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.USER_LIBRARY/Maven: org.jboss.weld.se:weld-se:2.4.8.Final"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.USER_LIBRARY/Maven: org.jboss.weld:weld-core:2.1.2.Final"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.USER_LIBRARY/Maven: org.jboss.weld:weld-core-impl:2.1.2.Final"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.USER_LIBRARY/Maven: javax.enterprise:cdi-api:1.1"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.USER_LIBRARY/Maven: org.jboss.weld:weld-api:2.1.Final"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.USER_LIBRARY/Maven: org.jboss.classfilewriter:jboss-classfilewriter:1.0.4.Final"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.USER_LIBRARY/Maven: org.jboss.spec.javax.annotation:jboss-annotations-api_1.2_spec:1.0.0.Alpha1"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.USER_LIBRARY/Maven: com.google.guava:guava:13.0.1"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.USER_LIBRARY/Maven: org.jboss.spec.javax.el:jboss-el-api_3.0_spec:1.0.0.Alpha1"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.USER_LIBRARY/Maven: org.jboss.spec.javax.interceptor:jboss-interceptors-api_1.2_spec:1.0.0.Alpha3"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.USER_LIBRARY/Maven: org.jboss.weld:weld-core-jsf:2.1.2.Final"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.USER_LIBRARY/Maven: org.eclipse.persistence:org.eclipse.persistence.jpa:2.7.4"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.USER_LIBRARY/Maven: org.eclipse.persistence:jakarta.persistence:2.2.2"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.USER_LIBRARY/Maven: org.eclipse.persistence:org.eclipse.persistence.asm:2.7.4"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.USER_LIBRARY/Maven: org.eclipse.persistence:org.eclipse.persistence.antlr:2.7.4"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.USER_LIBRARY/Maven: org.eclipse.persistence:org.eclipse.persistence.jpa.jpql:2.7.4"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.USER_LIBRARY/Maven: org.eclipse.persistence:org.eclipse.persistence.core:2.7.4"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.USER_LIBRARY/Maven: javax.inject:javax.inject:1"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.USER_LIBRARY/Maven: org.apache.derby:derbynet:10.15.1.3"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.USER_LIBRARY/Maven: org.apache.derby:derby:10.15.1.3"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.USER_LIBRARY/Maven: org.apache.derby:derbyclient:10.15.1.3"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.USER_LIBRARY/Maven: org.apache.derby:derbytools:10.15.1.3"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.USER_LIBRARY/Maven: org.apache.derby:derbyshared:10.15.1.3"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.USER_LIBRARY/Maven: com.google.code.gson:gson:2.8.5"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.USER_LIBRARY/Maven: org.glassfish.jersey.media:jersey-media-json-jackson:2.29.1"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.USER_LIBRARY/Maven: org.glassfish.jersey.core:jersey-common:2.29.1"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.USER_LIBRARY/Maven: jakarta.ws.rs:jakarta.ws.rs-api:2.1.6"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.USER_LIBRARY/Maven: jakarta.annotation:jakarta.annotation-api:1.3.5"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.USER_LIBRARY/Maven: com.sun.activation:jakarta.activation:1.2.1"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.USER_LIBRARY/Maven: org.glassfish.jersey.ext:jersey-entity-filtering:2.29.1"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.USER_LIBRARY/Maven: com.fasterxml.jackson.core:jackson-annotations:2.9.9"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.USER_LIBRARY/Maven: com.fasterxml.jackson.core:jackson-databind:2.9.9"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.USER_LIBRARY/Maven: com.fasterxml.jackson.core:jackson-core:2.9.9"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.USER_LIBRARY/Maven: com.fasterxml.jackson.module:jackson-module-jaxb-annotations:2.9.9"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.USER_LIBRARY/Maven: org.glassfish.jersey.media:jersey-media-jaxb:2.29.1"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.USER_LIBRARY/Maven: org.glassfish.hk2.external:jakarta.inject:2.6.1"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.USER_LIBRARY/Maven: org.glassfish.hk2:osgi-resource-locator:1.0.3"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.USER_LIBRARY/Maven: javax.xml.bind:jaxb-api:2.4.0-b180830.0359"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.USER_LIBRARY/Maven: javax.activation:javax.activation-api:1.2.0"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.USER_LIBRARY/Maven: io.helidon.integrations.cdi:helidon-integrations-cdi-datasource-hikaricp:1.3.0"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.USER_LIBRARY/Maven: io.helidon.integrations.cdi:helidon-integrations-cdi-datasource:1.3.0"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.USER_LIBRARY/Maven: io.helidon.serviceconfiguration:helidon-serviceconfiguration-config-source:1.3.0"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.USER_LIBRARY/Maven: io.helidon.serviceconfiguration:helidon-serviceconfiguration-api:1.3.0"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.USER_LIBRARY/Maven: io.helidon.serviceconfiguration:helidon-serviceconfiguration-hikaricp:1.3.0"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.USER_LIBRARY/Maven: com.zaxxer:HikariCP:2.7.8"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.USER_LIBRARY/Maven: org.eclipse.microprofile.config:microprofile-config-api:1.3"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.USER_LIBRARY/Maven: org.osgi:org.osgi.annotation.versioning:1.0.0"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.USER_LIBRARY/Maven: io.helidon.integrations.cdi:helidon-integrations-cdi-jta-weld:1.3.0"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.USER_LIBRARY/Maven: io.helidon.integrations.cdi:helidon-integrations-cdi-jta:1.3.0"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.USER_LIBRARY/Maven: org.jboss:jboss-transaction-spi:7.6.0.Final"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.USER_LIBRARY/Maven: org.jboss.weld.module:weld-jta:3.1.1.Final"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.USER_LIBRARY/Maven: org.jboss.spec.javax.transaction:jboss-transaction-api_1.2_spec:1.0.0.Final"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.USER_LIBRARY/Maven: org.jboss.narayana.jta:cdi:5.9.3.Final"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.USER_LIBRARY/Maven: org.jboss.narayana.jta:jta:5.9.3.Final"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.USER_LIBRARY/Maven: org.jboss.narayana:common:5.9.3.Final"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.USER_LIBRARY/Maven: org.jboss.narayana.arjunacore:arjuna:5.9.3.Final"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.USER_LIBRARY/Maven: org.jboss.weld:weld-spi:3.1.Final"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.USER_LIBRARY/Maven: io.helidon.integrations.cdi:helidon-integrations-cdi-jpa:1.3.0"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.USER_LIBRARY/Maven: org.jboss:jandex:2.1.1.Final"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.USER_LIBRARY/Maven: io.helidon.integrations.cdi:helidon-integrations-cdi-delegates:1.3.0"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.USER_LIBRARY/Maven: io.helidon.integrations.cdi:helidon-integrations-cdi-reference-counted-context:1.3.0"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.USER_LIBRARY/Maven: com.sun.xml.bind:jaxb-core:2.3.0.1"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.USER_LIBRARY/Maven: com.sun.xml.bind:jaxb-impl:2.3.2"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.USER_LIBRARY/Maven: io.helidon.integrations.cdi:helidon-integrations-cdi-eclipselink:1.3.0"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.USER_LIBRARY/Maven: jakarta.persistence:jakarta.persistence-api:2.2.2"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.USER_LIBRARY/Maven: javax.transaction:javax.transaction-api:1.2"/>
+	<classpathentry kind="output" path="target/classes"/>
+</classpath>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<entity-mappings xmlns="http://java.sun.com/xml/ns/persistence/orm"
+        version="2.0">
+
+    <entity class="main.jpa.entity.RewardEntity">
+        <table name="Reward" schema="dbo" catalog="CustomDB"/>
+        <attributes>
+            <id name="rewardId">
+                <column name="RewardID" precision="-1"/>
+            </id>
+            <basic name="amount">
+                <column name="Amount" precision="-1"/>
+            </basic>
+            <basic name="rewardDate">
+                <column name="RewardDate" precision="-1"/>
+            </basic>
+            <many-to-one name="offenceByOffenseId" optional="true" target-entity="main.jpa.entity.OffenceEntity">
+                <join-column name="OffenseID" referenced-column-name="OffenceID"/>
+            </many-to-one>
+            <many-to-one name="employeeByEmpId" optional="true" target-entity="main.jpa.entity.EmployeeEntity">
+                <join-column name="EmpID" referenced-column-name="EmpID"/>
+            </many-to-one>
+        </attributes>
+    </entity>
+</entity-mappings>

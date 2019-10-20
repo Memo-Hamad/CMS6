@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<entity-mappings xmlns="http://java.sun.com/xml/ns/persistence/orm"
+        version="2.0">
+
+    <entity class="main.jpa.entity.DeclarationEntity">
+        <table name="Declaration" schema="dbo" catalog="CustomDB"/>
+        <attributes>
+            <id name="declarationId">
+                <column name="DeclarationID" precision="-1"/>
+            </id>
+            <basic name="submittedOn">
+                <column name="SubmittedOn" precision="-1"/>
+            </basic>
+            <basic name="totalWeight">
+                <column name="TotalWeight" precision="-1"/>
+            </basic>
+            <basic name="dutyAmount">
+                <column name="DutyAmount" precision="-1"/>
+            </basic>
+            <basic name="attachment">
+                <column name="Attachment" nullable="false" precision="4000"/>
+            </basic>
+            <many-to-one name="customerByCustomerID" optional="true" target-entity="main.jpa.entity.CustomerEntity">
+                <join-column name="CustomerID" referenced-column-name="CustomerID"/>
+            </many-to-one>
+            <many-to-one name="countryByCountryCode" optional="true" target-entity="main.jpa.entity.CountryEntity">
+                <join-column name="CountryCode" referenced-column-name="CountryCode"/>
+            </many-to-one>
+            <many-to-one name="agentByAgentId" optional="true" target-entity="main.jpa.entity.AgentEntity">
+                <join-column name="AgentID" referenced-column-name="AgentID"/>
+            </many-to-one>
+        </attributes>
+    </entity>
+</entity-mappings>

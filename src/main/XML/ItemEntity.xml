@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<entity-mappings xmlns="http://java.sun.com/xml/ns/persistence/orm"
+        version="2.0">
+
+    <entity class="main.jpa.entity.ItemEntity">
+        <table name="Item" schema="dbo" catalog="CustomDB"/>
+        <attributes>
+            <id name="itemId">
+                <column name="ItemID" precision="-1"/>
+            </id>
+            <basic name="quantity">
+                <column name="Quantity" precision="-1"/>
+            </basic>
+            <basic name="price">
+                <column name="Price" precision="-1"/>
+            </basic>
+            <basic name="itemWeight">
+                <column name="ItemWeight" precision="-1"/>
+            </basic>
+            <basic name="description">
+                <column name="Description" nullable="false"/>
+            </basic>
+            <many-to-one name="declarationByDeclarationId" optional="true" target-entity="main.jpa.entity.DeclarationEntity">
+                <join-column name="DeclarationID" referenced-column-name="DeclarationID"/>
+            </many-to-one>
+            <many-to-one name="inspectResultByInspectResultCode" optional="true"
+                         target-entity="main.jpa.entity.InspectResultEntity">
+                <join-column name="InspectResultCode" referenced-column-name="InspectResultCode"/>
+            </many-to-one>
+        </attributes>
+    </entity>
+</entity-mappings>

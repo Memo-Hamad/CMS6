@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<entity-mappings xmlns="http://java.sun.com/xml/ns/persistence/orm"
+        version="2.0">
+
+    <entity class="main.jpa.entity.PaymentEntity">
+        <table name="Payment" schema="dbo" catalog="CustomDB"/>
+        <attributes>
+            <id name="paymentId">
+                <column name="PaymentID" precision="-1"/>
+            </id>
+            <basic name="amount">
+                <column name="Amount" precision="-1"/>
+            </basic>
+            <basic name="bankId">
+                <column name="BankID"/>
+            </basic>
+            <basic name="accountNo">
+                <column name="AccountNo" precision="-1"/>
+            </basic>
+            <basic name="holderName">
+                <column name="HolderName"/>
+            </basic>
+            <basic name="expiryDate">
+                <column name="ExpiryDate" precision="-1"/>
+            </basic>
+            <many-to-one name="declarationByDeclarationId" optional="true" target-entity="main.jpa.entity.DeclarationEntity">
+                <join-column name="DeclarationID" referenced-column-name="DeclarationID"/>
+            </many-to-one>
+        </attributes>
+    </entity>
+</entity-mappings>

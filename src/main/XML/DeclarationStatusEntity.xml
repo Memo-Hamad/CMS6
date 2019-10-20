@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<entity-mappings xmlns="http://java.sun.com/xml/ns/persistence/orm"
+        version="2.0">
+
+    <entity class="main.jpa.entity.DeclarationStatusEntity">
+        <table name="DeclarationStatus" schema="dbo" catalog="CustomDB"/>
+        <attributes>
+            <id name="decStatusCode">
+                <column name="DecStatusCode" length="2"/>
+            </id>
+            <basic name="decStatus">
+                <column name="DecStatus"/>
+            </basic>
+        </attributes>
+    </entity>
+</entity-mappings>

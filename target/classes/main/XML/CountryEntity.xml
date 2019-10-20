@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<entity-mappings xmlns="http://java.sun.com/xml/ns/persistence/orm"
+        version="2.0">
+
+    <entity class="main.jpa.entity.CountryEntity">
+        <table name="Country" schema="dbo" catalog="CustomDB"/>
+        <attributes>
+            <id name="countryCode">
+                <column name="CountryCode" length="3"/>
+            </id>
+            <basic name="countryName">
+                <column name="CountryName"/>
+            </basic>
+        </attributes>
+    </entity>
+</entity-mappings>

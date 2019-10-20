@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<entity-mappings xmlns="http://java.sun.com/xml/ns/persistence/orm"
+        version="2.0">
+
+    <entity class="main.jpa.entity.OffenceTypeEntity">
+        <table name="OffenceType" schema="dbo" catalog="CustomDB"/>
+        <attributes>
+            <id name="offenceTypeCode">
+                <column name="OffenceTypeCode" length="1"/>
+            </id>
+            <basic name="offenceType">
+                <column name="OffenceType"/>
+            </basic>
+        </attributes>
+    </entity>
+</entity-mappings>

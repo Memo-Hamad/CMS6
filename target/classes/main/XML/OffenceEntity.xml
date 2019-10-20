@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<entity-mappings xmlns="http://java.sun.com/xml/ns/persistence/orm"
+        version="2.0">
+
+    <entity class="main.jpa.entity.OffenceEntity">
+        <table name="Offence" schema="dbo" catalog="CustomDB"/>
+        <attributes>
+            <id name="offenceId">
+                <column name="OffenceID" precision="-1"/>
+            </id>
+            <basic name="offenceDate">
+                <column name="OffenceDate" precision="-1"/>
+            </basic>
+            <basic name="description">
+                <column name="Description" length="2000"/>
+            </basic>
+            <many-to-one name="itemByItemId" optional="true" target-entity="main.jpa.entity.ItemEntity">
+                <join-column name="ItemID" nullable="false" referenced-column-name="ItemID"/>
+            </many-to-one>
+            <many-to-one name="declarationByDeclarationId" optional="true" target-entity="main.jpa.entity.DeclarationEntity">
+                <join-column name="DeclarationID" nullable="false" referenced-column-name="DeclarationID"/>
+            </many-to-one>
+        </attributes>
+    </entity>
+</entity-mappings>

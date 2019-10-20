@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<entity-mappings xmlns="http://java.sun.com/xml/ns/persistence/orm"
+        version="2.0">
+
+    <entity class="main.jpa.entity.AgentEntity">
+        <table name="Agent" schema="dbo" catalog="CustomDB"/>
+        <attributes>
+            <id name="agentId">
+                <column name="AgentID" precision="-1"/>
+            </id>
+            <basic name="firstName">
+                <column name="FirstName"/>
+            </basic>
+            <basic name="lastName">
+                <column name="LastName"/>
+            </basic>
+            <basic name="agencyCode">
+                <column name="AgencyCode" precision="-1"/>
+            </basic>
+            <basic name="agentCompany">
+                <column name="AgentCompany"/>
+            </basic>
+            <basic name="loginId">
+                <column name="LoginID" nullable="false"/>
+            </basic>
+            <basic name="loginPass">
+                <column name="LoginPass" nullable="false"/>
+            </basic>
+        </attributes>
+    </entity>
+</entity-mappings>
